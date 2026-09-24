@@ -18,7 +18,7 @@ data = [
         "Topology": "8*8",
         "Surface Areas": "Github Recipes",
         "CUJ Description": "Execute a massive-scale GRPO loop on a GKE TPU cluster by orchestrating the Tunix library and MaxText trainer alongside a distributed vLLM sampling engine; this journey uses Pathways to manage high-throughput weight transfers enabling complex reasoning alignment for large-scale models (like Llama 3 70B or Gemma 3 27B) across multiple TPU slices.",
-        "URL Link to the recipe": "https://github.com/AI-Hypercomputer/tpu-recipes/tree/main/tpu/tuning/sft_tuning_gke_tpu_gcluster"
+        "URL Link to the recipe": "https://github.com/GoogleCloudSamples/AIHypercomputerSamples/tree/main/tpu/tuning/sft_tuning_gke_tpu_gcluster"
     },
     {
         "Workload Type": "Post training",
@@ -37,7 +37,7 @@ data = [
         "Topology": "4*8",
         "Surface Areas": "Github Recipes",
         "CUJ Description": "Scale the alignment of large-scale models (like Llama 3 70B or Gemma 4 31B) across multiple TPU nodes in a GKE cluster by using Cluster Toolkit to orchestrate a distributed MaxText SFT pipeline; this journey leverages the Tunix library and Pathways (or McJAX) to efficiently shard model parameters and datasets across a high-performance interconnect for massive-scale post-training.",
-        "URL Link to the recipe": "https://github.com/AI-Hypercomputer/tpu-recipes/tree/main/tpu/tuning/sft_tuning_gke_tpu_gcluster"
+        "URL Link to the recipe": "https://github.com/GoogleCloudSamples/AIHypercomputerSamples/tree/main/tpu/tuning/sft_tuning_gke_tpu_gcluster"
     },
     {
         "Workload Type": "Post training",
@@ -56,7 +56,7 @@ data = [
         "Topology": "2*4",
         "Surface Areas": "Github Recipes",
         "CUJ Description": "Convert a pre-trained small model (like Llama or Gemma) from Hugging Face into MaxText format and execute a high-performance SFT pipeline on Cloud TPUs using the Tunix library to align the model with custom datasets from Hugging Face, or Grain.",
-        "URL Link to the recipe": "https://github.com/AI-Hypercomputer/tpu-recipes/tree/main/tpu/tuning/gemma3-4b-sft"
+        "URL Link to the recipe": "https://github.com/GoogleCloudSamples/AIHypercomputerSamples/tree/main/tpu/tuning/gemma3-4b-sft"
     },
     {
         "Workload Type": "Post training",
@@ -75,7 +75,7 @@ data = [
         "Topology": "2*4",
         "Surface Areas": "Github Recipes",
         "CUJ Description": "Enhance the reasoning capabilities of a smaller model like Llama 3.1-8B on Trillium (v6e) by using MaxText and the Tunix library to execute a GRPO loop.",
-        "URL Link to the recipe": "https://github.com/AI-Hypercomputer/tpu-recipes/tree/main/tpu/tuning/llama3.1-8b-rl"
+        "URL Link to the recipe": "https://github.com/GoogleCloudSamples/AIHypercomputerSamples/tree/main/tpu/tuning/llama3.1-8b-rl"
     }
 ]
 
